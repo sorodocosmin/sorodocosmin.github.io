@@ -32,12 +32,17 @@
 
   /* link for the github */
   #link_git {
-    color : #171515;
+    text-decoration: none;
+    color : white;
+    background-color: #3b3b3b;
+    border-radius: 10em;
+    font-size: 1em;
   }
 
   #link_git:hover {
     background-color: #967bb6;
     color: #171515;
+    transition: background-color 0.3s ease-in-out;
   }
   
   /* Paragraph styles */
