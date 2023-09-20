@@ -96,4 +96,41 @@
       padding: 20px;
     }
   }
+
+  .button-git {
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .button-git .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+    margin: 0px 0px 0px 0px;
+
+  }
+  
+  .button-git svg path {
+    transition: 400ms;
+  }
+  
+  .button-git:hover {
+    background-color: transparent;
+  }
+  
+  .button-git:hover .text {
+    color: #181717;
+  }
+  
+  .button-git:hover svg path {
+    fill: #181717;
+  }
   
